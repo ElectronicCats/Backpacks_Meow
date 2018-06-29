@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/sabas/.platformio/penv/bin:/Users/sabas/.platformio/penv:/Users/sabas/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Applications/Wireshark.app/Contents/MacOS:/Applications/microchip/xc8/v1.44/bin",
+        "PLATFORMIO_CALLER": "vscode"
+    }
+}
