@@ -1,2 +1,8 @@
 
 \.DS_Store
+
+*.kicad_pcb-bak
+
+*.bak
+
+*.net
