@@ -1620,7 +1620,7 @@
   )
 
   (module LOGO (layer B.Cu) (tedit 0) (tstamp 5C64BD5B)
-    (at 124.35 39.6 180)
+    (at 121.425 39.35 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -2826,7 +2826,7 @@
     (fp_text reference J1 (at -4.4 -1.05 90) (layer F.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom))
     )
-    (fp_text value Conn_02x03_Odd_Even (at 3.55 1.35) (layer B.SilkS)
+    (fp_text value Conn1 (at -4.225 1.9) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom mirror))
     )
     (fp_line (start -3 2) (end 3 2) (layer F.SilkS) (width 0.127))
@@ -2857,7 +2857,7 @@
     (fp_text reference J2 (at 4.7 -1.95 270) (layer F.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom))
     )
-    (fp_text value Conn_02x03_Odd_Even (at -3.275 -1.65 180) (layer B.SilkS)
+    (fp_text value Conn2 (at 4.15 -1.925 180) (layer B.SilkS)
       (effects (font (size 0.77216 0.77216) (thickness 0.065024)) (justify left bottom mirror))
     )
     (fp_text user 1 (at -3.8 2 270) (layer Cmts.User)
@@ -4897,7 +4897,7 @@
   )
 
   (module Aesthetics:jacdac_logo_14x6 (layer B.Cu) (tedit 0) (tstamp 5C6583F1)
-    (at 129.025 47.8 180)
+    (at 129.75 46.225 180)
     (fp_text reference G*** (at 0 0 180) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -5131,7 +5131,7 @@
   (gr_text v0.1-beta (at 128.65 51.325) (layer B.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
   )
-  (gr_text "Backpack " (at 129.7 44.55) (layer B.SilkS)
+  (gr_text "Backpack " (at 130.525 43.575) (layer B.SilkS)
     (effects (font (size 1.3 1.3) (thickness 0.3) italic) (justify mirror))
   )
   (gr_line (start 140.525 36.575) (end 140.6 68.25) (layer Edge.Cuts) (width 0.15) (tstamp 5B367C08))
