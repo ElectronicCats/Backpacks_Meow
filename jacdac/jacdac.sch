@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MeowMeow - Backpack JACDAC"
-Date "2018-12-25"
-Rev "0.1"
+Date "2019-02-25"
+Rev "0.2"
 Comp "Electronic Cats"
 Comment1 "Andres Sabas"
 Comment2 "Rocio Rodriguez"
@@ -28,12 +28,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5C2284F7
-P 6220 1520
-F 0 "J2" H 6270 1837 50  0000 C CNN
-F 1 "Conn2" H 6270 1746 50  0000 C CNN
-F 2 "Pines:61300621121" H 6220 1520 50  0001 C CNN
-F 3 "~" H 6220 1520 50  0001 C CNN
-	1    6220 1520
+P 7039 1520
+F 0 "J2" H 7089 1837 50  0000 C CNN
+F 1 "Conn2" H 7089 1746 50  0000 C CNN
+F 2 "Pines:61300621121" H 7039 1520 50  0001 C CNN
+F 3 "~" H 7039 1520 50  0001 C CNN
+	1    7039 1520
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -45,50 +45,48 @@ Wire Wire Line
 Wire Wire Line
 	4265 1440 4390 1440
 Wire Wire Line
-	4265 1540 4390 1540
+	6839 1520 6724 1520
 Wire Wire Line
-	6020 1520 5905 1520
+	6839 1620 6729 1620
 Wire Wire Line
-	6020 1620 5910 1620
+	7339 1420 7449 1420
 Wire Wire Line
-	6520 1420 6630 1420
+	7339 1520 7449 1520
 Wire Wire Line
-	6520 1520 6630 1520
-Wire Wire Line
-	6520 1620 6630 1620
+	7339 1620 7449 1620
 Text Label 3610 1440 0    50   ~ 0
 MOSI
 Text Label 4390 1440 0    50   ~ 0
 MISO
 Text Label 3610 1540 0    50   ~ 0
 SCK
-Text Label 4390 1540 0    50   ~ 0
+Text Label 5340 1541 0    50   ~ 0
 JACDAC_TX
 Text Label 3620 1640 0    50   ~ 0
 SCL
-Text Label 6630 1420 0    50   ~ 0
+Text Label 7449 1420 0    50   ~ 0
 CS
-Text Label 5905 1520 0    50   ~ 0
+Text Label 6724 1520 0    50   ~ 0
 X3
-Text Label 6630 1520 0    50   ~ 0
+Text Label 7449 1520 0    50   ~ 0
 X2
-Text Label 5910 1620 2    50   ~ 0
+Text Label 6729 1620 2    50   ~ 0
 I2S_D1
-Text Label 6630 1620 0    50   ~ 0
+Text Label 7449 1620 0    50   ~ 0
 I2S_SCK
 $Comp
 L power:GND #PWR0101
 U 1 1 5C235C6C
-P 5655 1310
-F 0 "#PWR0101" H 5655 1060 50  0001 C CNN
-F 1 "GND" H 5660 1137 50  0000 C CNN
-F 2 "" H 5655 1310 50  0001 C CNN
-F 3 "" H 5655 1310 50  0001 C CNN
-	1    5655 1310
+P 6474 1310
+F 0 "#PWR0101" H 6474 1060 50  0001 C CNN
+F 1 "GND" H 6479 1137 50  0000 C CNN
+F 2 "" H 6474 1310 50  0001 C CNN
+F 3 "" H 6474 1310 50  0001 C CNN
+	1    6474 1310
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 1420 6020 1420
+	6619 1420 6839 1420
 $Comp
 L power:VCC #PWR0102
 U 1 1 5C235DEF
@@ -103,15 +101,15 @@ $EndComp
 Text Notes 4530 710  0    89   ~ 0
 Meow Meow Connectors
 Wire Wire Line
-	5800 1420 5800 1310
+	6619 1420 6619 1310
 Wire Wire Line
-	5800 1310 5655 1310
+	6619 1310 6474 1310
 Wire Wire Line
 	4265 1640 4265 1805
 Wire Wire Line
 	4265 1805 4455 1805
-Text Notes 4805 1540 0    50   ~ 0
-NOTE: PIN SDA
+Text Notes 3764 2090 0    50   ~ 0
+NOTE: JACDAC_TX\nIS PIN SDA
 Wire Notes Line
 	460  2365 11205 2365
 Wire Notes Line
@@ -310,4 +308,79 @@ Wire Wire Line
 	6500 4400 6710 4400
 Text Notes 4910 2560 0    89   ~ 0
 Jack connector
+$Comp
+L Device:D_Schottky D2
+U 1 1 5C74169E
+P 4777 1775
+F 0 "D2" V 4731 1854 50  0000 L CNN
+F 1 "MBR120" V 4822 1854 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 4777 1775 50  0001 C CNN
+F 3 "~" H 4777 1775 50  0001 C CNN
+	1    4777 1775
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5C741788
+P 4861 1284
+F 0 "D1" V 4815 1363 50  0000 L CNN
+F 1 "MBR120" V 4730 1357 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 4861 1284 50  0001 C CNN
+F 3 "~" H 4861 1284 50  0001 C CNN
+	1    4861 1284
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5C741839
+P 5172 1541
+F 0 "R1" V 5110 1552 50  0000 C CNN
+F 1 "100" V 5247 1543 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5172 1541 50  0001 C CNN
+F 3 "~" H 5172 1541 50  0001 C CNN
+	1    5172 1541
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4777 1625 4777 1541
+Wire Wire Line
+	4265 1540 4777 1540
+Wire Wire Line
+	4777 1541 4861 1541
+Connection ~ 4777 1541
+Wire Wire Line
+	4777 1541 4777 1540
+Wire Wire Line
+	4861 1434 4861 1541
+Connection ~ 4861 1541
+Wire Wire Line
+	4861 1541 5072 1541
+Wire Wire Line
+	5272 1541 5340 1541
+Wire Wire Line
+	4777 1925 4777 1997
+Wire Wire Line
+	4861 1134 4861 1076
+$Comp
+L power:GND #PWR08
+U 1 1 5C74ED05
+P 4777 1997
+F 0 "#PWR08" H 4777 1747 50  0001 C CNN
+F 1 "GND" H 4782 1824 50  0000 C CNN
+F 2 "" H 4777 1997 50  0001 C CNN
+F 3 "" H 4777 1997 50  0001 C CNN
+	1    4777 1997
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 5C74EF54
+P 4861 1076
+F 0 "#PWR07" H 4861 926 50  0001 C CNN
+F 1 "VCC" H 4878 1249 50  0000 C CNN
+F 2 "" H 4861 1076 50  0001 C CNN
+F 3 "" H 4861 1076 50  0001 C CNN
+	1    4861 1076
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
