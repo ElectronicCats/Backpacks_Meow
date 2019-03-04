@@ -27,8 +27,10 @@ Also, here's a list of where you can buy the parts and a brief description of wh
 
 The diagram shown at the beginning is what we're going to build as we connect everything together.
 
+### Step 1: Open Maker MakeCode
+Open your browser and go to [https://maker.makecode.com/](https://maker.makecode.com/), open "New Project" and select the board Meow Meow, select in mode Javascript your editor code.
 
-### Step 1: Connecting the 3.5mm Audio Jack Connector to the "Meow Meow Host" to the others "Meow Meow Peripheral"
+### Step 2: Connecting the 3.5mm Audio Jack Connector to the "Meow Meow Host" to the others "Meow Meow Peripheral"
 
 
 Using a standard audio cable, connect your Meow Meow Host to the Meow Meows Peripheral, as shown in the picture below.
@@ -38,7 +40,7 @@ Using a standard audio cable, connect your Meow Meow Host to the Meow Meows Peri
 It does not matter in which connector you place the cable and it is not necessary to make any other connection.
 
 
-### Step 2: Load an example that uses JACDAC onto the Meow Meow Host 
+### Step 3: Load an example that uses JACDAC onto the Meow Meow Host 
 
 As mentioned earlier, we're going to be using the protocol called JACDAC to connect the Meow Meow with others Meow Meow to a controller.
 
@@ -51,7 +53,7 @@ jacdac.keyboardService.start()
 For more information on the JACDAC protocol, check out this link: [https://jacdac.org/](https://jacdac.org/
 )
 
-### Step 3: Load controller code onto Meow Meow Peripheral that uses JACDAC
+### Step 4: Load controller code onto Meow Meow Peripheral that uses JACDAC
 
 The Meow Meows Peripheral serves as our controllers for the Meow Meow Host. 
 
@@ -82,7 +84,7 @@ input.touchA4.onEvent(ButtonEvent.Down, function () {
 })
 ```
 
-### Step 4: Connect the Meow Meow Host to PC
+### Step 5: Connect the Meow Meow Host to PC
 
 > Remember **always** only one device Meow Meow at a time must be connected to the computer.
 
