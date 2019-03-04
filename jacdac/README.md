@@ -19,7 +19,7 @@ Also, here's a list of where you can buy the parts and a brief description of wh
 
 > **Always** only one device Meow Meow at a time must be connected to the computer.
 > 
-> Before starting, you must disconnect all the meu from the USB cable or any other external power supply
+> Before starting, you must disconnect all the Meow Meows from the USB cable or any other external power supply
 
 
 
@@ -42,7 +42,7 @@ It does not matter in which connector you place the cable and it is not necessar
 
 As mentioned earlier, we're going to be using the protocol called JACDAC to connect the Meow Meow with others Meow Meow to a controller.
 
-Load this code from MakeCode onto your Meow Meow:
+Load this code from MakeCode onto your Meow Meow Host:
 
 ```typescript-ignore
 jacdac.keyboardService.start()
@@ -53,9 +53,9 @@ For more information on the JACDAC protocol, check out this link: [https://jacda
 
 ### Step 3: Load controller code onto Meow Meow Peripheral that uses JACDAC
 
-The Meow Meow Peripheral serves as our controller for the games we've already loaded onto the Meow Meow. 
+The Meow Meows Peripheral serves as our controllers for the Meow Meow Host. 
 
-Load this code from MakeCode (beta) onto your Meow Meow Peripheral to use it as a keyboard:
+Load this code from MakeCode (beta) onto your Meow Meows Peripherals to use it as a keyboard:
 
 ```typescript-ignore
 enum JacDacMessage {
@@ -84,9 +84,9 @@ input.touchA4.onEvent(ButtonEvent.Down, function () {
 
 ### Step 4: Connect the Meow Meow Host to PC
 
-Remember **always** only one device Meow Meow at a time must be connected to the computer.
+> Remember **always** only one device Meow Meow at a time must be connected to the computer.
 
-After everything is plugged in, turn on both the Meow Meow and start playing!!
+After everything is plugged in, turn on the Meow Meow Host and start playing!!
 
 Enjoy!
 
