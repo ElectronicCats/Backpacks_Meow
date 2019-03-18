@@ -696,7 +696,7 @@ U 1 1 5C941D1D
 P 3920 2395
 F 0 "R8" H 3979 2441 50  0000 L CNN
 F 1 "10K" H 3979 2350 50  0000 L CNN
-F 2 "" H 3920 2395 50  0001 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3920 2395 50  0001 C CNN
 F 3 "~" H 3920 2395 50  0001 C CNN
 	1    3920 2395
 	1    0    0    -1  
@@ -735,23 +735,23 @@ Wire Notes Line
 Text Label 9550 1405 2    60   ~ 0
 ESP_BUSY
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5C95FB74
 P 7875 1295
-F 0 "J?" H 7925 1612 50  0000 C CNN
+F 0 "J1" H 7925 1612 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 7925 1521 50  0000 C CNN
-F 2 "" H 7875 1295 50  0001 C CNN
+F 2 "Pines:62000621121" H 7875 1295 50  0001 C CNN
 F 3 "~" H 7875 1295 50  0001 C CNN
 	1    7875 1295
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5C95FBFE
 P 9875 1305
-F 0 "J?" H 9925 1622 50  0000 C CNN
+F 0 "J2" H 9925 1622 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 9925 1531 50  0000 C CNN
-F 2 "" H 9875 1305 50  0001 C CNN
+F 2 "Pines:62000621121" H 9875 1305 50  0001 C CNN
 F 3 "~" H 9875 1305 50  0001 C CNN
 	1    9875 1305
 	1    0    0    -1  
