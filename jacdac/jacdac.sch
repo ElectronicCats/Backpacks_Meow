@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "MeowMeow - Backpack JACDAC"
 Date "2019-02-25"
-Rev "0.2"
+Rev "0.3"
 Comp "Electronic Cats"
 Comment1 "Andres Sabas"
 Comment2 "Rocio Rodriguez"
