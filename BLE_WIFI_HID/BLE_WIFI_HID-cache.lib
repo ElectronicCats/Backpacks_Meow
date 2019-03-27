@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# BLE_WIFI_HID-rescue_+3.3V-power1
+# BLE_WIFI_HID-rescue_+3.3V-power1-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_+3.3V-power1 #PWR 0 0 Y Y 1 F P
+DEF BLE_WIFI_HID-rescue_+3.3V-power1-BLE_WIFI_HID-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLE_WIFI_HID-rescue_+3.3V-power1" 0 140 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_+3.3V-power1-BLE_WIFI_HID-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_+BATT-power1
+# BLE_WIFI_HID-rescue_+BATT-power1-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_+BATT-power1 #PWR 0 0 Y Y 1 F P
+DEF BLE_WIFI_HID-rescue_+BATT-power1-BLE_WIFI_HID-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLE_WIFI_HID-rescue_+BATT-power1" 0 140 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_+BATT-power1-BLE_WIFI_HID-rescue" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -31,11 +31,11 @@ X +BATT 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_CONN_01X02-conn
+# BLE_WIFI_HID-rescue_CONN_01X02-conn-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_CONN_01X02-conn P 0 40 Y N 1 F N
+DEF BLE_WIFI_HID-rescue_CONN_01X02-conn-BLE_WIFI_HID-rescue P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "BLE_WIFI_HID-rescue_CONN_01X02-conn" 100 0 50 V V C CNN
+F1 "BLE_WIFI_HID-rescue_CONN_01X02-conn-BLE_WIFI_HID-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -53,11 +53,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_CONN_01X06-conn
+# BLE_WIFI_HID-rescue_CONN_01X06-conn-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_CONN_01X06-conn P 0 40 Y N 1 F N
+DEF BLE_WIFI_HID-rescue_CONN_01X06-conn-BLE_WIFI_HID-rescue P 0 40 Y N 1 F N
 F0 "P" 0 350 50 H V C CNN
-F1 "BLE_WIFI_HID-rescue_CONN_01X06-conn" 100 0 50 V V C CNN
+F1 "BLE_WIFI_HID-rescue_CONN_01X06-conn-BLE_WIFI_HID-rescue" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -83,11 +83,11 @@ X P6 6 -200 -250 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_C_Small-device
+# BLE_WIFI_HID-rescue_C_Small-device-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_C_Small-device C 0 10 N N 1 F N
+DEF BLE_WIFI_HID-rescue_C_Small-device-BLE_WIFI_HID-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "BLE_WIFI_HID-rescue_C_Small-device" 10 -80 50 H V L CNN
+F1 "BLE_WIFI_HID-rescue_C_Small-device-BLE_WIFI_HID-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -105,11 +105,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_D_Schottky-device
+# BLE_WIFI_HID-rescue_D_Schottky-device-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_D_Schottky-device D 0 40 N N 1 F N
+DEF BLE_WIFI_HID-rescue_D_Schottky-device-BLE_WIFI_HID-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "BLE_WIFI_HID-rescue_D_Schottky-device" 0 -100 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_D_Schottky-device-BLE_WIFI_HID-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -129,11 +129,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib
+# BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib U 0 40 Y Y 1 F N
+DEF BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-BLE_WIFI_HID-rescue U 0 40 Y Y 1 F N
 F0 "U" -700 1250 60 H V C CNN
-F1 "BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib" 500 1250 60 H V C CNN
+F1 "BLE_WIFI_HID-rescue_ESP32-WROOM-ESP32-footprints-Shem-Lib-BLE_WIFI_HID-rescue" 500 1250 60 H V C CNN
 F2 "ESP32-footprints-Lib:ESP32-WROOM" 350 1350 60 H I C CNN
 F3 "" -450 450 60 H I C CNN
 DRAW
@@ -181,11 +181,11 @@ X IO33 9 -950 -100 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_GND-power1
+# BLE_WIFI_HID-rescue_GND-power1-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_GND-power1 #PWR 0 0 Y Y 1 F P
+DEF BLE_WIFI_HID-rescue_GND-power1-BLE_WIFI_HID-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "BLE_WIFI_HID-rescue_GND-power1" 0 -150 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_GND-power1-BLE_WIFI_HID-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -194,11 +194,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_LED-device
+# BLE_WIFI_HID-rescue_LED-device-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_LED-device D 0 40 Y N 1 F N
+DEF BLE_WIFI_HID-rescue_LED-device-BLE_WIFI_HID-rescue D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "BLE_WIFI_HID-rescue_LED-device" 0 -100 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_LED-device-BLE_WIFI_HID-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -215,11 +215,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT
+# BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT U 0 40 Y Y 1 L N
+DEF BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT-BLE_WIFI_HID-rescue U 0 40 Y Y 1 L N
 F0 "U" -162 396 50 H V L CNN
-F1 "BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT" -234 -676 50 H V L CNN
+F1 "BLE_WIFI_HID-rescue_MCP73831T-2ACI_OT-MCP73831T-2ACI_OT-BLE_WIFI_HID-rescue" -234 -676 50 H V L CNN
 F2 "SOT95P280X145-5N" 0 0 50 H I L CNN
 F3 "0.51 USD" 0 0 50 H I L CNN
 F4 "Microchip" 0 0 50 H I L CNN "MF"
@@ -240,11 +240,11 @@ X PROG 5 -700 -100 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_R_Small-device
+# BLE_WIFI_HID-rescue_R_Small-device-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_R_Small-device R 0 10 N N 1 F N
+DEF BLE_WIFI_HID-rescue_R_Small-device-BLE_WIFI_HID-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "BLE_WIFI_HID-rescue_R_Small-device" 30 -40 50 H V L CNN
+F1 "BLE_WIFI_HID-rescue_R_Small-device-BLE_WIFI_HID-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -258,11 +258,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# BLE_WIFI_HID-rescue_VCC-power1
+# BLE_WIFI_HID-rescue_VCC-power1-BLE_WIFI_HID-rescue
 #
-DEF BLE_WIFI_HID-rescue_VCC-power1 #PWR 0 0 Y Y 1 F P
+DEF BLE_WIFI_HID-rescue_VCC-power1-BLE_WIFI_HID-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "BLE_WIFI_HID-rescue_VCC-power1" 0 150 50 H V C CNN
+F1 "BLE_WIFI_HID-rescue_VCC-power1-BLE_WIFI_HID-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
