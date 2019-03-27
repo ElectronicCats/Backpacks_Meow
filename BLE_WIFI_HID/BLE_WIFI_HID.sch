@@ -1,103 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:ESP32-footprints-Shem-Lib
-LIBS:MCP73831T-2ACI_OT
-LIBS:ap2112
-LIBS:electroniccats
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:ir
-LIBS:Lattice
-LIBS:logo
-LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:transf
-LIBS:ttl_ieee
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:BLE_WIFI_HID-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "BackPack Meow Meow: BLE-WiFi-HID"
-Date "2018-06-17"
-Rev "0.1"
+Date "2019-03-17"
+Rev "0.2"
 Comp "Electronic Cats"
 Comment1 "Andres Sabas"
 Comment2 ""
@@ -105,51 +15,29 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R_Small R1
-U 1 1 5B26D835
-P 6120 1845
-F 0 "R1" H 6150 1865 50  0000 L CNN
-F 1 "100k" H 6150 1805 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6120 1845 50  0001 C CNN
-F 3 "" H 6120 1845 50  0000 C CNN
-	1    6120 1845
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R2
-U 1 1 5B26D8F1
-P 6120 2185
-F 0 "R2" H 6150 2205 50  0000 L CNN
-F 1 "100k" H 6150 2145 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6120 2185 50  0001 C CNN
-F 3 "" H 6120 2185 50  0000 C CNN
-	1    6120 2185
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED D1
+L BLE_WIFI_HID-rescue:LED-device D1
 U 1 1 5B26D928
-P 5700 3380
-F 0 "D1" H 5700 3480 50  0000 C CNN
-F 1 "LED" H 5700 3280 50  0000 C CNN
-F 2 "LEDs:LED_0805_HandSoldering" H 5700 3380 50  0001 C CNN
-F 3 "" H 5700 3380 50  0000 C CNN
-	1    5700 3380
+P 5655 1165
+F 0 "D1" H 5655 1265 50  0000 C CNN
+F 1 "LED" H 5655 1065 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5655 1165 50  0001 C CNN
+F 3 "" H 5655 1165 50  0000 C CNN
+	1    5655 1165
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L BLE_WIFI_HID-rescue:R_Small-device R3
 U 1 1 5B26D96F
-P 6040 3380
-F 0 "R3" H 6070 3400 50  0000 L CNN
-F 1 "330" H 6070 3340 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 6040 3380 50  0001 C CNN
-F 3 "" H 6040 3380 50  0000 C CNN
-	1    6040 3380
+P 5995 1165
+F 0 "R3" H 6025 1185 50  0000 L CNN
+F 1 "330" H 6025 1125 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 5995 1165 50  0001 C CNN
+F 3 "" H 5995 1165 50  0000 C CNN
+	1    5995 1165
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L BLE_WIFI_HID-rescue:R_Small-device R6
 U 1 1 5B26D9F4
 P 4170 6940
 F 0 "R6" H 4200 6960 50  0000 L CNN
@@ -160,7 +48,7 @@ F 3 "" H 4170 6940 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R7
+L BLE_WIFI_HID-rescue:R_Small-device R7
 U 1 1 5B26DA52
 P 1670 7140
 F 0 "R7" H 1700 7160 50  0000 L CNN
@@ -171,7 +59,7 @@ F 3 "" H 1670 7140 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L LED D3
+L BLE_WIFI_HID-rescue:LED-device D3
 U 1 1 5B26DBDC
 P 3860 6940
 F 0 "D3" H 3860 7040 50  0000 C CNN
@@ -182,7 +70,7 @@ F 3 "" H 3860 6940 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L BLE_WIFI_HID-rescue:C_Small-device C4
 U 1 1 5B26DC6D
 P 3495 7315
 F 0 "C4" H 3505 7385 50  0000 L CNN
@@ -193,7 +81,7 @@ F 3 "" H 3495 7315 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L BLE_WIFI_HID-rescue:C_Small-device C1
 U 1 1 5B26DCD8
 P 4505 1290
 F 0 "C1" H 4515 1360 50  0000 L CNN
@@ -204,7 +92,7 @@ F 3 "" H 4505 1290 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P4
+L BLE_WIFI_HID-rescue:CONN_01X02-conn P4
 U 1 1 5B26DD5E
 P 5190 7060
 F 0 "P4" H 5190 7210 50  0000 C CNN
@@ -215,7 +103,7 @@ F 3 "" H 5190 7060 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCP73831T-2ACI/OT U3
+L BLE_WIFI_HID-rescue:MCP73831T-2ACI_OT-MCP73831T-2ACI_OT U3
 U 1 1 5B26DF66
 P 2660 7040
 F 0 "U3" H 2498 7436 50  0000 L CNN
@@ -231,7 +119,7 @@ F 8 "MCP73831T-2ACI/OT" H 2660 7040 50  0001 L CNN "MP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR01
+L BLE_WIFI_HID-rescue:+BATT-power1 #PWR01
 U 1 1 5B26EC4D
 P 3605 7125
 F 0 "#PWR01" H 3605 6975 50  0001 C CNN
@@ -242,7 +130,7 @@ F 3 "" H 3605 7125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L BLE_WIFI_HID-rescue:GND-power1 #PWR02
 U 1 1 5B26EE21
 P 3495 7500
 F 0 "#PWR02" H 3495 7250 50  0001 C CNN
@@ -253,7 +141,7 @@ F 3 "" H 3495 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L BLE_WIFI_HID-rescue:GND-power1 #PWR03
 U 1 1 5B26F0CC
 P 4890 7110
 F 0 "#PWR03" H 4890 6860 50  0001 C CNN
@@ -264,7 +152,7 @@ F 3 "" H 4890 7110 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR04
+L BLE_WIFI_HID-rescue:+BATT-power1 #PWR04
 U 1 1 5B26F118
 P 4885 7010
 F 0 "#PWR04" H 4885 6860 50  0001 C CNN
@@ -275,7 +163,7 @@ F 3 "" H 4885 7010 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L BLE_WIFI_HID-rescue:GND-power1 #PWR05
 U 1 1 5B26F308
 P 1975 3560
 F 0 "#PWR05" H 1975 3310 50  0001 C CNN
@@ -286,7 +174,7 @@ F 3 "" H 1975 3560 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L BLE_WIFI_HID-rescue:+3.3V-power1 #PWR06
 U 1 1 5B26F442
 P 1385 1845
 F 0 "#PWR06" H 1385 1695 50  0001 C CNN
@@ -297,7 +185,7 @@ F 3 "" H 1385 1845 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR07
+L BLE_WIFI_HID-rescue:+3.3V-power1 #PWR07
 U 1 1 5B26FB52
 P 4505 1070
 F 0 "#PWR07" H 4505 920 50  0001 C CNN
@@ -308,29 +196,7 @@ F 3 "" H 4505 1070 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
-U 1 1 5B26FBAC
-P 6120 2395
-F 0 "#PWR08" H 6120 2145 50  0001 C CNN
-F 1 "GND" H 6120 2245 50  0000 C CNN
-F 2 "" H 6120 2395 50  0000 C CNN
-F 3 "" H 6120 2395 50  0000 C CNN
-	1    6120 2395
-	1    0    0    -1  
-$EndComp
-$Comp
-L +BATT #PWR09
-U 1 1 5B26FCC6
-P 6120 1595
-F 0 "#PWR09" H 6120 1445 50  0001 C CNN
-F 1 "+BATT" H 6120 1735 50  0000 C CNN
-F 2 "" H 6120 1595 50  0000 C CNN
-F 3 "" H 6120 1595 50  0000 C CNN
-	1    6120 1595
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR010
+L BLE_WIFI_HID-rescue:GND-power1 #PWR010
 U 1 1 5B2700B6
 P 4505 1500
 F 0 "#PWR010" H 4505 1250 50  0001 C CNN
@@ -341,18 +207,18 @@ F 3 "" H 4505 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L BLE_WIFI_HID-rescue:GND-power1 #PWR011
 U 1 1 5B270277
-P 5395 3410
-F 0 "#PWR011" H 5395 3160 50  0001 C CNN
-F 1 "GND" H 5395 3260 50  0000 C CNN
-F 2 "" H 5395 3410 50  0000 C CNN
-F 3 "" H 5395 3410 50  0000 C CNN
-	1    5395 3410
+P 5350 1195
+F 0 "#PWR011" H 5350 945 50  0001 C CNN
+F 1 "GND" H 5350 1045 50  0000 C CNN
+F 2 "" H 5350 1195 50  0000 C CNN
+F 3 "" H 5350 1195 50  0000 C CNN
+	1    5350 1195
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR012
+L BLE_WIFI_HID-rescue:VCC-power1 #PWR012
 U 1 1 5B270483
 P 1480 6865
 F 0 "#PWR012" H 1480 6715 50  0001 C CNN
@@ -363,7 +229,7 @@ F 3 "" H 1480 6865 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR013
+L BLE_WIFI_HID-rescue:VCC-power1 #PWR013
 U 1 1 5B270999
 P 4340 6860
 F 0 "#PWR013" H 4340 6710 50  0001 C CNN
@@ -380,30 +246,20 @@ NoConn ~ 2575 3505
 NoConn ~ 2675 3505
 NoConn ~ 2875 3505
 NoConn ~ 2775 3505
-Text Label 1310 2355 2    60   ~ 0
-AN35_BAT
-Text Label 5975 2020 2    60   ~ 0
-AN35_BAT
-Text Label 2075 3615 3    60   ~ 0
-IO13
-Text Label 6270 3380 0    60   ~ 0
-IO13
+Text Label 6225 1165 0    60   ~ 0
+IO25
 Text Label 3525 2005 0    60   ~ 0
-RX_ESP32
+ESP_RX
 Text Label 3510 1905 0    60   ~ 0
-TX_ESP32
+ESP_TX
 NoConn ~ 1475 2255
-NoConn ~ 3325 1705
 NoConn ~ 3325 1805
 NoConn ~ 3325 2105
-NoConn ~ 3325 2305
-NoConn ~ 3325 2405
-NoConn ~ 3325 2505
 NoConn ~ 3325 2705
 NoConn ~ 3325 2605
 NoConn ~ 3325 2805
 $Comp
-L ESP32-WROOM U1
+L BLE_WIFI_HID-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib U1
 U 1 1 5B27204D
 P 2425 2455
 F 0 "U1" H 1725 3705 60  0000 C CNN
@@ -417,14 +273,11 @@ NoConn ~ 2375 3505
 NoConn ~ 1475 2055
 NoConn ~ 1475 2155
 NoConn ~ 1475 2455
-NoConn ~ 1475 2555
-NoConn ~ 1475 2655
 NoConn ~ 1475 2755
 NoConn ~ 1475 2855
 NoConn ~ 1475 3055
-NoConn ~ 1475 2955
 $Comp
-L GND #PWR014
+L BLE_WIFI_HID-rescue:GND-power1 #PWR014
 U 1 1 5B273B64
 P 3425 3185
 F 0 "#PWR014" H 3425 2935 50  0001 C CNN
@@ -435,7 +288,7 @@ F 3 "" H 3425 3185 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L BLE_WIFI_HID-rescue:GND-power1 #PWR015
 U 1 1 5B273C2E
 P 1385 3250
 F 0 "#PWR015" H 1385 3000 50  0001 C CNN
@@ -446,74 +299,45 @@ F 3 "" H 1385 3250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1285 1955 2    60   ~ 0
-RESET/RTS
-$Comp
-L CONN_01X07 P2
-U 1 1 5B27461E
-P 8840 1325
-F 0 "P2" H 8840 1725 50  0000 C CNN
-F 1 "CONN_01X07" V 8940 1325 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 8840 1325 50  0001 C CNN
-F 3 "" H 8840 1325 50  0000 C CNN
-	1    8840 1325
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X07 P1
-U 1 1 5B2746B3
-P 9375 1310
-F 0 "P1" H 9375 1710 50  0000 C CNN
-F 1 "CONN_01X07" V 9475 1310 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 9375 1310 50  0001 C CNN
-F 3 "" H 9375 1310 50  0000 C CNN
-	1    9375 1310
-	-1   0    0    1   
-$EndComp
-Text Label 8520 1025 2    60   ~ 0
+ESP_RESET
+Text Label 7555 1195 2    60   ~ 0
 MOSI
-Text Label 8570 1125 2    60   ~ 0
+Text Label 8305 1195 0    60   ~ 0
 MISO
-Text Label 8545 1225 2    60   ~ 0
-SCK
-Text Label 8575 1325 2    60   ~ 0
-SDA
-Text Label 8570 1425 2    60   ~ 0
-SCL
-Text Label 9695 1010 0    60   ~ 0
-I2S_SCK
-Text Label 9720 1110 0    60   ~ 0
-I2S_D1/X7
-Text Label 9790 1210 0    60   ~ 0
-RX_ESP32
-Text Label 9785 1310 0    60   ~ 0
-TX_ESP32
-Text Label 9745 1410 0    60   ~ 0
-CS
+Text Label 9550 1305 2    60   ~ 0
+ESP_RX
+Text Label 10310 1305 0    60   ~ 0
+ESP_TX
+Text Label 10315 1405 0    60   ~ 0
+ESP_RTS
+Text Label 8305 1295 0    60   ~ 0
+ESP_GPIO0
+Text Label 10310 1205 0    60   ~ 0
+ESP_CS
 $Comp
-L VCC #PWR016
+L BLE_WIFI_HID-rescue:VCC-power1 #PWR016
 U 1 1 5B2759A9
-P 9840 1710
-F 0 "#PWR016" H 9840 1560 50  0001 C CNN
-F 1 "VCC" H 9840 1860 50  0000 C CNN
-F 2 "" H 9840 1710 50  0000 C CNN
-F 3 "" H 9840 1710 50  0000 C CNN
-	1    9840 1710
+P 8875 1320
+F 0 "#PWR016" H 8875 1170 50  0001 C CNN
+F 1 "VCC" H 8875 1470 50  0000 C CNN
+F 2 "" H 8875 1320 50  0000 C CNN
+F 3 "" H 8875 1320 50  0000 C CNN
+	1    8875 1320
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L BLE_WIFI_HID-rescue:GND-power1 #PWR017
 U 1 1 5B2759F9
-P 8455 1625
-F 0 "#PWR017" H 8455 1375 50  0001 C CNN
-F 1 "GND" H 8455 1475 50  0000 C CNN
-F 2 "" H 8455 1625 50  0000 C CNN
-F 3 "" H 8455 1625 50  0000 C CNN
-	1    8455 1625
+P 9385 1020
+F 0 "#PWR017" H 9385 770 50  0001 C CNN
+F 1 "GND" H 9385 870 50  0000 C CNN
+F 2 "" H 9385 1020 50  0000 C CNN
+F 3 "" H 9385 1020 50  0000 C CNN
+	1    9385 1020
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8640 1525
 $Comp
-L CONN_01X06 P3
+L BLE_WIFI_HID-rescue:CONN_01X06-conn P3
 U 1 1 5B27613B
 P 9595 2805
 F 0 "P3" H 9595 3155 50  0000 C CNN
@@ -524,11 +348,11 @@ F 3 "" H 9595 2805 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9285 2655 2    60   ~ 0
-TX_ESP32
+ESP_TX
 Text Label 9290 2755 2    60   ~ 0
-RX_ESP32
+ESP_RX
 $Comp
-L GND #PWR018
+L BLE_WIFI_HID-rescue:GND-power1 #PWR018
 U 1 1 5B276759
 P 9295 3055
 F 0 "#PWR018" H 9295 2805 50  0001 C CNN
@@ -541,17 +365,17 @@ $EndComp
 Text Notes 3165 700  0    60   ~ 0
 MICROCONTROLLER ESP32
 Text Label 3430 2905 0    60   ~ 0
-IO0_BOOT/DTR
+ESP_GPIO0
 Text Notes 8765 650  0    60   ~ 0
 HEADER EXPANSION
 Text Notes 8870 2260 0    60   ~ 0
 PROGRAMMING
 Text Notes 3125 6675 0    60   ~ 0
 CHARGER BATTERY
-Text Notes 8835 5310 0    60   ~ 0
+Text Notes 8930 4270 0    60   ~ 0
 REGULATOR
 $Comp
-L C_Small C2
+L BLE_WIFI_HID-rescue:C_Small-device C2
 U 1 1 5B27A891
 P 8110 5820
 F 0 "C2" H 8120 5890 50  0000 L CNN
@@ -562,7 +386,7 @@ F 3 "" H 8110 5820 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L BLE_WIFI_HID-rescue:C_Small-device C3
 U 1 1 5B27A920
 P 9620 5820
 F 0 "C3" H 9630 5890 50  0000 L CNN
@@ -573,7 +397,7 @@ F 3 "" H 9620 5820 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AP2112K-3.3TRG1 U2
+L electroniccats:AP2112K-3.3TRG1 U2
 U 1 1 5B31ADE6
 P 9040 5865
 F 0 "U2" H 8738 6206 50  0000 L BNN
@@ -589,7 +413,7 @@ F 8 "AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R5
+L BLE_WIFI_HID-rescue:R_Small-device R5
 U 1 1 5B31B540
 P 8380 5865
 F 0 "R5" H 8410 5885 50  0000 L CNN
@@ -600,7 +424,7 @@ F 3 "" H 8380 5865 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR019
+L BLE_WIFI_HID-rescue:GND-power1 #PWR019
 U 1 1 5B31BEE1
 P 8110 5970
 F 0 "#PWR019" H 8110 5720 50  0001 C CNN
@@ -611,7 +435,7 @@ F 3 "" H 8110 5970 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Schottky D2
+L BLE_WIFI_HID-rescue:D_Schottky-device D2
 U 1 1 5B31BFE5
 P 8010 5460
 F 0 "D2" H 8010 5560 50  0000 C CNN
@@ -622,7 +446,7 @@ F 3 "" H 8010 5460 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +BATT #PWR020
+L BLE_WIFI_HID-rescue:+BATT-power1 #PWR020
 U 1 1 5B31C231
 P 8010 5285
 F 0 "#PWR020" H 8010 5135 50  0001 C CNN
@@ -633,7 +457,7 @@ F 3 "" H 8010 5285 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR021
+L BLE_WIFI_HID-rescue:VCC-power1 #PWR021
 U 1 1 5B31C299
 P 7885 5290
 F 0 "#PWR021" H 7885 5140 50  0001 C CNN
@@ -644,7 +468,7 @@ F 3 "" H 7885 5290 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR022
+L BLE_WIFI_HID-rescue:+3.3V-power1 #PWR022
 U 1 1 5B31C6F9
 P 9880 5645
 F 0 "#PWR022" H 9880 5495 50  0001 C CNN
@@ -655,7 +479,7 @@ F 3 "" H 9880 5645 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L BLE_WIFI_HID-rescue:GND-power1 #PWR023
 U 1 1 5B31C8E7
 P 9620 6170
 F 0 "#PWR023" H 9620 5920 50  0001 C CNN
@@ -666,55 +490,33 @@ F 3 "" H 9620 6170 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 9280 2555 2    60   ~ 0
-IO0_BOOT/DTR
+ESP_GPIO0
 $Comp
-L VCC #PWR024
+L BLE_WIFI_HID-rescue:VCC-power1 #PWR024
 U 1 1 5B31D988
-P 9285 2855
-F 0 "#PWR024" H 9285 2705 50  0001 C CNN
-F 1 "VCC" H 9285 3005 50  0000 C CNN
-F 2 "" H 9285 2855 50  0000 C CNN
-F 3 "" H 9285 2855 50  0000 C CNN
-	1    9285 2855
-	0    -1   -1   0   
+P 8660 2765
+F 0 "#PWR024" H 8660 2615 50  0001 C CNN
+F 1 "VCC" H 8660 2915 50  0000 C CNN
+F 2 "" H 8660 2765 50  0000 C CNN
+F 3 "" H 8660 2765 50  0000 C CNN
+	1    8660 2765
+	1    0    0    -1  
 $EndComp
 Text Label 9285 2955 2    60   ~ 0
-RESET/RTS
+ESP_RESET
 $Comp
-L SW_Push SW1
-U 1 1 5B31E8A7
-P 5795 4665
-F 0 "SW1" H 5845 4765 50  0000 L CNN
-F 1 "SW_Push" H 5795 4605 50  0000 C CNN
-F 2 "TIH:SW_B3U-1000P" H 5795 4865 50  0001 C CNN
-F 3 "" H 5795 4865 50  0000 C CNN
-	1    5795 4665
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_Small R4
+L BLE_WIFI_HID-rescue:R_Small-device R4
 U 1 1 5B31E957
-P 5530 4435
-F 0 "R4" H 5560 4455 50  0000 L CNN
-F 1 "1k" H 5560 4395 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 5530 4435 50  0001 C CNN
-F 3 "" H 5530 4435 50  0000 C CNN
-	1    5530 4435
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR025
-U 1 1 5B31EAA2
-P 6085 4690
-F 0 "#PWR025" H 6085 4440 50  0001 C CNN
-F 1 "GND" H 6085 4540 50  0000 C CNN
-F 2 "" H 6085 4690 50  0000 C CNN
-F 3 "" H 6085 4690 50  0000 C CNN
-	1    6085 4690
+P 1305 2055
+F 0 "R4" H 1335 2075 50  0000 L CNN
+F 1 "10k" H 1335 2015 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1305 2055 50  0001 C CNN
+F 3 "" H 1305 2055 50  0000 C CNN
+	1    1305 2055
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1475 1955 1285 1955
+	1475 1955 1305 1955
 Wire Wire Line
 	1960 6940 1480 6940
 Wire Wire Line
@@ -736,14 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	4340 6940 4340 6860
 Wire Wire Line
-	3360 7140 3495 7140
-Wire Wire Line
-	3495 7140 3495 7215
-Wire Wire Line
-	3490 7140 3605 7140
-Wire Wire Line
 	3605 7140 3605 7125
-Connection ~ 3490 7140
 Wire Wire Line
 	3495 7415 3495 7500
 Wire Wire Line
@@ -751,41 +546,21 @@ Wire Wire Line
 Wire Wire Line
 	4990 7110 4890 7110
 Wire Wire Line
-	6120 1745 6120 1595
-Wire Wire Line
-	6120 1945 6120 2085
-Wire Wire Line
-	6120 2285 6120 2395
-Wire Wire Line
-	6120 2020 5975 2020
-Connection ~ 6120 2020
-Wire Wire Line
 	4505 1190 4505 1070
 Wire Wire Line
 	4505 1390 4505 1500
 Wire Wire Line
-	5850 3380 5940 3380
+	5805 1165 5895 1165
 Wire Wire Line
-	6140 3380 6270 3380
+	6095 1165 6225 1165
 Wire Wire Line
-	5550 3380 5395 3380
+	5505 1165 5350 1165
 Wire Wire Line
-	5395 3380 5395 3410
+	5350 1165 5350 1195
 Wire Wire Line
 	3325 3005 3425 3005
 Wire Wire Line
-	3425 3005 3425 3185
-Wire Wire Line
-	3325 3105 3425 3105
-Wire Wire Line
-	3425 3105 3425 3110
-Connection ~ 3425 3110
-Wire Wire Line
-	2075 3505 2075 3615
-Wire Wire Line
 	1975 3560 1975 3505
-Wire Wire Line
-	1475 2355 1310 2355
 Wire Wire Line
 	1475 3155 1385 3155
 Wire Wire Line
@@ -798,32 +573,6 @@ Wire Wire Line
 	1475 1855 1385 1855
 Wire Wire Line
 	1385 1855 1385 1845
-Wire Wire Line
-	8640 1025 8445 1025
-Wire Wire Line
-	8640 1125 8455 1125
-Wire Wire Line
-	8640 1225 8455 1225
-Wire Wire Line
-	8640 1325 8455 1325
-Wire Wire Line
-	8640 1425 8460 1425
-Wire Wire Line
-	8640 1625 8455 1625
-Wire Wire Line
-	9575 1010 9790 1010
-Wire Wire Line
-	9575 1110 9790 1110
-Wire Wire Line
-	9575 1210 9790 1210
-Wire Wire Line
-	9575 1310 9785 1310
-Wire Wire Line
-	9575 1410 9790 1410
-Wire Wire Line
-	9575 1510 10000 1510
-Wire Wire Line
-	9575 1610 9790 1610
 Wire Wire Line
 	9395 2655 9285 2655
 Wire Wire Line
@@ -843,7 +592,7 @@ Wire Notes Line
 Wire Wire Line
 	3325 2905 3430 2905
 Wire Wire Line
-	7885 5665 8540 5665
+	7885 5665 8010 5665
 Wire Wire Line
 	7885 5290 7885 5665
 Wire Wire Line
@@ -864,7 +613,7 @@ Connection ~ 8010 5665
 Wire Wire Line
 	8010 5310 8010 5285
 Wire Wire Line
-	9540 5665 9880 5665
+	9540 5665 9620 5665
 Wire Wire Line
 	9880 5665 9880 5645
 Wire Wire Line
@@ -873,61 +622,176 @@ Connection ~ 9620 5665
 Wire Wire Line
 	9540 6065 9620 6065
 Wire Wire Line
-	9620 5920 9620 6170
+	9620 5920 9620 6065
 Connection ~ 9620 6065
 Wire Wire Line
 	9395 2555 9280 2555
 Wire Wire Line
-	9395 2855 9285 2855
-Wire Wire Line
 	9395 2955 9285 2955
 Wire Wire Line
-	5995 4665 6085 4665
+	8240 5665 8540 5665
 Wire Wire Line
-	6085 4665 6085 4690
+	8110 5665 8240 5665
 Wire Wire Line
-	5420 4665 5595 4665
+	8010 5665 8110 5665
 Wire Wire Line
-	5530 4665 5530 4535
+	9620 5665 9880 5665
 Wire Wire Line
-	5530 4335 5530 4290
-Connection ~ 5530 4665
+	9620 6065 9620 6170
+Wire Wire Line
+	3425 3005 3425 3105
+Wire Wire Line
+	3360 7140 3495 7140
+Connection ~ 1305 1955
+Wire Wire Line
+	1305 1955 1285 1955
+Wire Wire Line
+	3325 3105 3425 3105
+Connection ~ 3425 3105
+Wire Wire Line
+	3425 3105 3425 3185
+Wire Wire Line
+	3325 2305 3475 2305
+Wire Wire Line
+	3325 2405 3475 2405
+Text Label 3475 2305 0    50   ~ 0
+ESP_RTS
+Text Label 3475 2405 0    50   ~ 0
+SCK
+Text Label 3475 2505 0    50   ~ 0
+ESP_CS
+Wire Wire Line
+	1475 2955 1340 2955
+Wire Wire Line
+	1475 2555 1360 2555
+Text Label 1340 2955 2    50   ~ 0
+MOSI
+Text Label 1360 2555 2    50   ~ 0
+ESP_BUSY
+NoConn ~ 1475 2355
+Wire Wire Line
+	3325 1705 3495 1705
+Text Label 3495 1705 0    50   ~ 0
+MISO
 $Comp
-L +3.3V #PWR026
-U 1 1 5B31EEFD
-P 5530 4290
-F 0 "#PWR026" H 5530 4140 50  0001 C CNN
-F 1 "+3.3V" H 5530 4430 50  0000 C CNN
-F 2 "" H 5530 4290 50  0000 C CNN
-F 3 "" H 5530 4290 50  0000 C CNN
-	1    5530 4290
+L power:GND #PWR0102
+U 1 1 5C93CCE3
+P 1305 2185
+F 0 "#PWR0102" H 1305 1935 50  0001 C CNN
+F 1 "GND" H 1310 2012 50  0000 C CNN
+F 2 "" H 1305 2185 50  0001 C CNN
+F 3 "" H 1305 2185 50  0001 C CNN
+	1    1305 2185
 	1    0    0    -1  
 $EndComp
-Text Label 5420 4665 2    60   ~ 0
-RESET/RTS
-NoConn ~ 8445 1025
-NoConn ~ 8455 1125
-NoConn ~ 8455 1225
-NoConn ~ 8455 1325
-NoConn ~ 8460 1425
-NoConn ~ 9790 1010
-NoConn ~ 9790 1110
-NoConn ~ 9790 1410
+Wire Wire Line
+	1305 2155 1305 2185
+Wire Wire Line
+	3920 2505 3920 2495
+Wire Wire Line
+	3325 2505 3920 2505
 $Comp
-L GND #PWR?
-U 1 1 5B31D4C5
-P 10000 1520
-F 0 "#PWR?" H 10000 1270 50  0001 C CNN
-F 1 "GND" H 10000 1370 50  0000 C CNN
-F 2 "" H 10000 1520 50  0000 C CNN
-F 3 "" H 10000 1520 50  0000 C CNN
-	1    10000 1520
+L Device:R_Small R8
+U 1 1 5C941D1D
+P 3920 2395
+F 0 "R8" H 3979 2441 50  0000 L CNN
+F 1 "10K" H 3979 2350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3920 2395 50  0001 C CNN
+F 3 "~" H 3920 2395 50  0001 C CNN
+	1    3920 2395
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 1510 10000 1520
+	3920 2295 3920 2255
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5C9443CD
+P 3920 2255
+F 0 "#PWR0103" H 3920 2105 50  0001 C CNN
+F 1 "+3.3V" H 3935 2428 50  0000 C CNN
+F 2 "" H 3920 2255 50  0001 C CNN
+F 3 "" H 3920 2255 50  0001 C CNN
+	1    3920 2255
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2075 3505
+Text Label 7545 1395 2    60   ~ 0
+ESP_RESET
 Wire Wire Line
-	9790 1610 9790 1710
+	3495 7215 3495 7140
 Wire Wire Line
-	9790 1710 9840 1710
+	3495 7140 3605 7140
+Connection ~ 3495 7140
+Wire Wire Line
+	1475 2655 1370 2655
+Text Label 1370 2655 2    50   ~ 0
+IO25
+Text Notes 665  2295 0    50   ~ 0
+NOTA: REVISAR\nRESISTENCIA\nDE RESET
+Wire Notes Line
+	6950 4080 11195 4080
+Wire Notes Line
+	11195 4080 11195 4100
+Text Label 9550 1405 2    60   ~ 0
+ESP_BUSY
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5C95FB74
+P 7875 1295
+F 0 "J1" H 7925 1612 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 7925 1521 50  0000 C CNN
+F 2 "Pines:62000621121" H 7875 1295 50  0001 C CNN
+F 3 "~" H 7875 1295 50  0001 C CNN
+	1    7875 1295
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5C95FBFE
+P 9875 1305
+F 0 "J2" H 9925 1622 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9925 1531 50  0000 C CNN
+F 2 "Pines:62000621121" H 9875 1305 50  0001 C CNN
+F 3 "~" H 9875 1305 50  0001 C CNN
+	1    9875 1305
+	1    0    0    -1  
+$EndComp
+Text Label 7550 1295 2    60   ~ 0
+SCK
+Wire Wire Line
+	10175 1205 10310 1205
+Wire Wire Line
+	10175 1305 10310 1305
+Wire Wire Line
+	10175 1405 10315 1405
+Wire Wire Line
+	9675 1305 9550 1305
+Wire Wire Line
+	9675 1405 9550 1405
+Wire Wire Line
+	8175 1195 8305 1195
+Wire Wire Line
+	8175 1295 8305 1295
+Wire Wire Line
+	7675 1195 7555 1195
+Wire Wire Line
+	7675 1295 7550 1295
+Wire Wire Line
+	7675 1395 7545 1395
+Wire Wire Line
+	9470 1205 9470 985 
+Wire Wire Line
+	9470 985  9385 985 
+Wire Wire Line
+	9385 985  9385 1020
+Wire Wire Line
+	9470 1205 9675 1205
+Wire Wire Line
+	8875 1395 8875 1320
+Wire Wire Line
+	8175 1395 8875 1395
+Wire Wire Line
+	8660 2855 8660 2765
+Wire Wire Line
+	8660 2855 9395 2855
 $EndSCHEMATC
