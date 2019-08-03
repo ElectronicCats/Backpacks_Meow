@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:BLE_WIFI_HID-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BLE_WIFI_HID-rescue:LED-device-BLE_WIFI_HID-rescue D1
+L BLE_WIFI_HID-rescue:LED-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue D1
 U 1 1 5B26D928
 P 5655 1165
 F 0 "D1" H 5655 1265 50  0000 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 5655 1165 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue R3
+L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue R3
 U 1 1 5B26D96F
 P 5995 1165
 F 0 "R3" H 6025 1185 50  0000 L CNN
@@ -37,7 +37,7 @@ F 3 "" H 5995 1165 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue R6
+L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue R6
 U 1 1 5B26D9F4
 P 4170 6940
 F 0 "R6" H 4200 6960 50  0000 L CNN
@@ -48,7 +48,7 @@ F 3 "" H 4170 6940 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue R7
+L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue R7
 U 1 1 5B26DA52
 P 1670 7140
 F 0 "R7" H 1700 7160 50  0000 L CNN
@@ -59,7 +59,7 @@ F 3 "" H 1670 7140 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:LED-device-BLE_WIFI_HID-rescue D3
+L BLE_WIFI_HID-rescue:LED-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue D3
 U 1 1 5B26DBDC
 P 3860 6940
 F 0 "D3" H 3860 7040 50  0000 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 3860 6940 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue C4
+L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue C4
 U 1 1 5B26DC6D
 P 3495 7315
 F 0 "C4" H 3505 7385 50  0000 L CNN
@@ -81,7 +81,7 @@ F 3 "" H 3495 7315 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue C1
+L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue C1
 U 1 1 5B26DCD8
 P 4505 1290
 F 0 "C1" H 4515 1360 50  0000 L CNN
@@ -92,7 +92,7 @@ F 3 "" H 4505 1290 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:CONN_01X02-conn-BLE_WIFI_HID-rescue P4
+L BLE_WIFI_HID-rescue:CONN_01X02-conn-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue P4
 U 1 1 5B26DD5E
 P 5190 7060
 F 0 "P4" H 5190 7210 50  0000 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 5190 7060 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:MCP73831T-2ACI_OT-MCP73831T-2ACI_OT-BLE_WIFI_HID-rescue U3
+L BLE_WIFI_HID-rescue:MCP73831T-2ACI_OT-MCP73831T-2ACI_OT-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue U3
 U 1 1 5B26DF66
 P 2660 7040
 F 0 "U3" H 2498 7436 50  0000 L CNN
@@ -119,7 +119,7 @@ F 8 "MCP73831T-2ACI/OT" H 2660 7040 50  0001 L CNN "MP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue #PWR01
+L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR01
 U 1 1 5B26EC4D
 P 3605 7125
 F 0 "#PWR01" H 3605 6975 50  0001 C CNN
@@ -130,7 +130,7 @@ F 3 "" H 3605 7125 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR02
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR02
 U 1 1 5B26EE21
 P 3495 7500
 F 0 "#PWR02" H 3495 7250 50  0001 C CNN
@@ -141,7 +141,7 @@ F 3 "" H 3495 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR03
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR03
 U 1 1 5B26F0CC
 P 4890 7110
 F 0 "#PWR03" H 4890 6860 50  0001 C CNN
@@ -152,7 +152,7 @@ F 3 "" H 4890 7110 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue #PWR04
+L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR04
 U 1 1 5B26F118
 P 4885 7010
 F 0 "#PWR04" H 4885 6860 50  0001 C CNN
@@ -163,7 +163,7 @@ F 3 "" H 4885 7010 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR05
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR05
 U 1 1 5B26F308
 P 1975 3560
 F 0 "#PWR05" H 1975 3310 50  0001 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 1975 3560 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue #PWR06
+L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR06
 U 1 1 5B26F442
 P 1385 1845
 F 0 "#PWR06" H 1385 1695 50  0001 C CNN
@@ -185,7 +185,7 @@ F 3 "" H 1385 1845 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue #PWR07
+L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR07
 U 1 1 5B26FB52
 P 4505 1070
 F 0 "#PWR07" H 4505 920 50  0001 C CNN
@@ -196,7 +196,7 @@ F 3 "" H 4505 1070 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR010
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR010
 U 1 1 5B2700B6
 P 4505 1500
 F 0 "#PWR010" H 4505 1250 50  0001 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 4505 1500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR011
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR011
 U 1 1 5B270277
 P 5350 1195
 F 0 "#PWR011" H 5350 945 50  0001 C CNN
@@ -218,7 +218,7 @@ F 3 "" H 5350 1195 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue #PWR012
+L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR012
 U 1 1 5B270483
 P 1480 6865
 F 0 "#PWR012" H 1480 6715 50  0001 C CNN
@@ -229,7 +229,7 @@ F 3 "" H 1480 6865 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue #PWR013
+L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR013
 U 1 1 5B270999
 P 4340 6860
 F 0 "#PWR013" H 4340 6710 50  0001 C CNN
@@ -259,7 +259,7 @@ NoConn ~ 3325 2705
 NoConn ~ 3325 2605
 NoConn ~ 3325 2805
 $Comp
-L BLE_WIFI_HID-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-BLE_WIFI_HID-rescue U1
+L BLE_WIFI_HID-rescue:ESP32-WROOM-ESP32-footprints-Shem-Lib-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue U1
 U 1 1 5B27204D
 P 2425 2455
 F 0 "U1" H 1725 3705 60  0000 C CNN
@@ -277,7 +277,7 @@ NoConn ~ 1475 2755
 NoConn ~ 1475 2855
 NoConn ~ 1475 3055
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR014
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR014
 U 1 1 5B273B64
 P 3425 3185
 F 0 "#PWR014" H 3425 2935 50  0001 C CNN
@@ -288,7 +288,7 @@ F 3 "" H 3425 3185 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR015
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR015
 U 1 1 5B273C2E
 P 1385 3250
 F 0 "#PWR015" H 1385 3000 50  0001 C CNN
@@ -315,7 +315,7 @@ ESP_GPIO0
 Text Label 10310 1205 0    60   ~ 0
 ESP_CS
 $Comp
-L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue #PWR016
+L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR016
 U 1 1 5B2759A9
 P 8875 1320
 F 0 "#PWR016" H 8875 1170 50  0001 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 8875 1320 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR017
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR017
 U 1 1 5B2759F9
 P 9385 1020
 F 0 "#PWR017" H 9385 770 50  0001 C CNN
@@ -337,7 +337,7 @@ F 3 "" H 9385 1020 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:CONN_01X06-conn-BLE_WIFI_HID-rescue P3
+L BLE_WIFI_HID-rescue:CONN_01X06-conn-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue P3
 U 1 1 5B27613B
 P 9595 2805
 F 0 "P3" H 9595 3155 50  0000 C CNN
@@ -352,7 +352,7 @@ ESP_TX
 Text Label 9290 2755 2    60   ~ 0
 ESP_RX
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR018
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR018
 U 1 1 5B276759
 P 9295 3055
 F 0 "#PWR018" H 9295 2805 50  0001 C CNN
@@ -375,7 +375,7 @@ CHARGER BATTERY
 Text Notes 8930 4270 0    60   ~ 0
 REGULATOR
 $Comp
-L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue C2
+L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue C2
 U 1 1 5B27A891
 P 8135 5230
 F 0 "C2" H 8145 5300 50  0000 L CNN
@@ -386,7 +386,7 @@ F 3 "" H 8135 5230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue C3
+L BLE_WIFI_HID-rescue:C_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue C3
 U 1 1 5B27A920
 P 9645 5230
 F 0 "C3" H 9655 5300 50  0000 L CNN
@@ -397,7 +397,7 @@ F 3 "" H 9645 5230 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L electroniccats:AP2112K-3.3TRG1 U2
+L BLE_WIFI_HID-rescue:AP2112K-3.3TRG1-electroniccats U2
 U 1 1 5B31ADE6
 P 9065 5275
 F 0 "U2" H 8763 5616 50  0000 L BNN
@@ -413,7 +413,7 @@ F 8 "AP2112 Series 0.6 A 3.3 V Fixed Output SMT LDO Linear Regulator - SOT23-5" 
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue R5
+L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue R5
 U 1 1 5B31B540
 P 8405 5275
 F 0 "R5" H 8435 5295 50  0000 L CNN
@@ -424,7 +424,7 @@ F 3 "" H 8405 5275 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR019
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR019
 U 1 1 5B31BEE1
 P 8135 5380
 F 0 "#PWR019" H 8135 5130 50  0001 C CNN
@@ -435,7 +435,7 @@ F 3 "" H 8135 5380 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:D_Schottky-device-BLE_WIFI_HID-rescue D2
+L BLE_WIFI_HID-rescue:D_Schottky-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue D2
 U 1 1 5B31BFE5
 P 8035 4870
 F 0 "D2" H 8035 4970 50  0000 C CNN
@@ -446,7 +446,7 @@ F 3 "" H 8035 4870 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue #PWR020
+L BLE_WIFI_HID-rescue:+BATT-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR020
 U 1 1 5B31C231
 P 8035 4695
 F 0 "#PWR020" H 8035 4545 50  0001 C CNN
@@ -457,7 +457,7 @@ F 3 "" H 8035 4695 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue #PWR021
+L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR021
 U 1 1 5B31C299
 P 7910 4700
 F 0 "#PWR021" H 7910 4550 50  0001 C CNN
@@ -468,7 +468,7 @@ F 3 "" H 7910 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue #PWR022
+L BLE_WIFI_HID-rescue:+3.3V-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR022
 U 1 1 5B31C6F9
 P 9905 5055
 F 0 "#PWR022" H 9905 4905 50  0001 C CNN
@@ -479,7 +479,7 @@ F 3 "" H 9905 5055 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue #PWR023
+L BLE_WIFI_HID-rescue:GND-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR023
 U 1 1 5B31C8E7
 P 9645 5580
 F 0 "#PWR023" H 9645 5330 50  0001 C CNN
@@ -492,7 +492,7 @@ $EndComp
 Text Label 9280 2555 2    60   ~ 0
 ESP_GPIO0
 $Comp
-L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue #PWR024
+L BLE_WIFI_HID-rescue:VCC-power1-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue #PWR024
 U 1 1 5B31D988
 P 8660 2765
 F 0 "#PWR024" H 8660 2615 50  0001 C CNN
@@ -505,7 +505,7 @@ $EndComp
 Text Label 9285 2955 2    60   ~ 0
 ESP_RESET
 $Comp
-L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue R4
+L BLE_WIFI_HID-rescue:R_Small-device-BLE_WIFI_HID-rescue-BLE_WIFI_HID-rescue R4
 U 1 1 5B31E957
 P 1305 2055
 F 0 "R4" H 1335 2075 50  0000 L CNN
